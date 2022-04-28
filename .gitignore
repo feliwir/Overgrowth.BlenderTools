@@ -1,0 +1,11 @@
+__pycache__
+.vscode
+.coverage
+coverage.xml
+htmlcov
+io_phxvn.zip
+.vs
+.pytest_cache
+TestResults
+venv
+/virtual_env
