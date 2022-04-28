@@ -1,14 +1,14 @@
-bl_addon_info = {
-    'name': 'Import/Export: Phoenix bones (.phxbn)...',
-    'author': 'David Rosen',
-    'version': '0.1',
-    'blender': (2, 5, 4),
+import bpy
+
+bl_info = {
+    'name': 'Import/Export: Phoenix bones (.phxbn)',
+    'author': 'David Rosen & Stephan Vedder',
+    'version': '0.2',
+    'blender': (2, 90, 0),
     'location': 'File > Import/Export > PHXBN',
     'description': 'Import Phoenix Bones (.phxbn format)',
     'warning': '', # used for warning icon and text in addons panel
-    'category': 'Import/Export'}
-
-import bpy
+    'category': 'Import-Export'}
 
 def menu_import(self, context):
     from io_phxbn import import_phxbn
